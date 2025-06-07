@@ -331,7 +331,7 @@ header{
     height: 100vh;
     background-color: var(--secondary-color);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -361,7 +361,7 @@ header{
     align-items: center;
     height: 90%;
     width: 50%;
-    /* border: 1px solid orange; */
+    border: 1px solid orange;
 }
 
 .cv a{
@@ -389,6 +389,18 @@ header{
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.summary{
+    width: 30%;
+    border:2px solid violet;
+    margin-left: 10%;
+}
+
+.summary p{
+    overflow-wrap: break-word;
+    color: white;
+    text-align: center;
 }
 
 @keyframes rotate360 {0%{transform: rotate(0deg);} 100%{transform: rotate(360deg);}}
